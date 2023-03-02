@@ -6,10 +6,12 @@ import Error from "@/_utils/Error";
 import Appartements from "@/pages/Appartements";
 import Layout from "@/pages/Layout";
 
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+          
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<Home />} />
@@ -20,6 +22,7 @@ function App() {
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
+        
       </BrowserRouter>
     </div>
   );

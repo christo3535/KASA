@@ -6,6 +6,7 @@ const Appartements = () => {
         <div>
             
             Les Appartements sont vides !
+
         </div>
     );
 };
