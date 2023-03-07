@@ -2,8 +2,9 @@ import React from 'react';
 import './error.css'
 const Error = () => {
     return (
-        <div className='error'>
-            Error 404 !
+        <div className='Error'>
+            <h1 className='error-title'>404</h1>
+            <h2>Oups!La page que vous demandez n'existe pas!</h2>
         </div>
     );
 };

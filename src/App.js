@@ -6,6 +6,8 @@ import Error from "@/_utils/Error";
 import Appartements from "@/pages/Appartements";
 import Layout from "@/pages/Layout";
 
+import Footer from "@/components/Footer/Footer";
+
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Error />} />
           </Route>
+          {/* <Route path="/footer" element= {<Footer/>}></Route> */}
+
         </Routes>
-        
+      <Footer/>
       </BrowserRouter>
     </div>
   );
