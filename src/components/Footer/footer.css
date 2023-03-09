@@ -1,6 +1,16 @@
 .Footer{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: black;
+    align-items: center;
     color: aliceblue;
+    font-size: 25px;
+    height: 300px;
+    margin-top: 50px;
     
+}
+
+.logoF {
+    width: 150px;
 }
