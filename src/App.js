@@ -23,7 +23,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Error />} />
           </Route>
-          {/* <Route path="/footer" element= {<Footer/>}></Route> */}
 
         </Routes>
       <Footer/>
