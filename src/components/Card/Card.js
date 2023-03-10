@@ -1,16 +1,16 @@
 import React from 'react';
-import appartements from '@/data/logements.json'
+import './card.css'
+import { Link } from 'react-router-dom';
 
-const Card = () => {
+const Card = ({appartement}) => {
     return (
-        <div>
-            Card crée
-             {/* { {appartements.map(i => <div key={i.id}>
-            <h1>{i.title}</h1>
-        </div>)} } */}
-        {appartements.map(i => <div key={i.id}>
-            <h1>{i.title}</h1>
-        </div>)}
+        <div className='Card'>
+            <Link to={ `/appartements/${appartement.id}` }>
+            
+              <img className={ 'appartementImg' } src = { appartement.cover } alt="photos des appartements à louer"/>
+              <h2 className={"appartementTitle"}>{ appartement.title }</h2>
+
+            </Link>
         </div>
     );
 };
