@@ -5,6 +5,7 @@ section {
 }
 
 .appartementGrid {
+ position: relative;   
  border-radius: 15px;
 background-color: #F6F6F6;
 display: flex;
