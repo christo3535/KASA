@@ -1,18 +1,9 @@
-.App {
-  text-align: center;
-  color: blueviolet;
+*, 
+::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* 
-.App-link {
-  color: #61dafb;
-} */

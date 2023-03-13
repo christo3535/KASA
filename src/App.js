@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Error from "@/_utils/Error";
 import Appartements from "@/pages/Appartements";
 import Layout from "@/pages/Layout";
-
 import Footer from "@/components/Footer/Footer";
 
 
