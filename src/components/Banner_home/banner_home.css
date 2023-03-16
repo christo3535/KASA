@@ -33,4 +33,14 @@
 
 
 
-/******* MOBILE *******/
+/******* MOBILE *******/ 
+    @media screen  and (max-width: 390px){
+
+        .bannerText{
+            font-size: 20px;
+        }
+        
+    }
+
+
+

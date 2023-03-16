@@ -1,4 +1,36 @@
 .Error{
+  margin-top: 100px;
   color: #FF6060;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
 }
+
+.error-title{
+  font-size: 250px;
+  
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.backLink{
+  color: #FF6060;
+  text-decoration: underline;
+  margin-top: 150px;
+}
+/* 
+.backLink:hover {
+  background-color: #ff6060;
+  color: white;
+  font-size:18px;
+  font-weight: bold;
+  border: 2px solid #b0541a;
+  border-radius: 15px;
+  padding: .5em;
+  text-decoration:none;
+  transition:0.5s all;
+}  */

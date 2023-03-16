@@ -6,9 +6,9 @@
     align-items: center;
     color: aliceblue;
     font-size: 25px;
-    height: 300px;
+    height: 250px;
     margin-top: 50px;
-    
+    gap: 50px;
 }
 
 .logoF {
