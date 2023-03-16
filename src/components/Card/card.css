@@ -10,7 +10,7 @@
 }
 
 .Card:hover{
-    transform: scale(1.02);
+    transform: scale(1.04);
 }
 
 .cartApartement{
@@ -38,6 +38,7 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+    transition: transform 0.5s ;
 }
 
 

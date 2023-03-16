@@ -17,8 +17,9 @@ ul{
 
 ul li{
     display: inline-block;
-    margin-right: 40px;   
+    margin: 25px;   
     font-size: 25px;
+    justify-content: space-between;
 }
  
 a{ 
@@ -42,4 +43,42 @@ a{
 
 .logo {
     width: 200px;
+    
+}
+
+
+/***** TABLETTES  ********/
+
+@media screen and (max-width:750px) {
+
+    ul li {
+        font-size: 20px;
+    }
+}
+
+
+
+/***** MOBILES  ***********/
+
+@media screen and (max-width:390px){
+    .logo{
+        max-width: 100px;
+    
+    }
+    ul{
+       margin-left: 5px;
+
+    }
+
+    ul li {
+        display: inline-block;
+        font-size: 14px;
+        margin: 5px;
+    }
+   
+
+   .activated{
+    text-transform: uppercase;
+   }
+    
 }

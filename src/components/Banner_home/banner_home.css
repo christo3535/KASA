@@ -1,3 +1,36 @@
 .banner-home{
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 230px;
 }
+
+.bannerHome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  z-index: -1;
+}
+
+.bannerText{
+    position: absolute;
+    font-size: 45px;
+    color: #FFF;
+    width: 95%;
+    margin: auto;
+    text-align: center; 
+
+}
+
+/******* TABLETTES *****/
+
+
+
+
+/******* MOBILE *******/

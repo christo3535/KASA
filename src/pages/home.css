@@ -1,19 +1,19 @@
 section {
-    display: flex;
-    flex-direction: column;
-    margin:0px 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 18px;
 }
 
 .appartementGrid {
- position: relative;   
- border-radius: 15px;
-background-color: #F6F6F6;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-width: 100%;
-margin-top: 30px;
-/* padding-bottom: 25px; */
-gap: 30px;
-padding:25px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 30px;
+  /* padding-bottom: 25px; */
+  gap: 30px;
+  padding: 25px;
 }
