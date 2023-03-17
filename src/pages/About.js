@@ -6,6 +6,10 @@ const About = () => {
         <div>
           <BannerAbout/>
             About est ok !
+         <div>
+            
+         </div>
+
         </div>
     );
 };

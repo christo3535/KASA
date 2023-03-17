@@ -4,7 +4,7 @@ import BannerImgA from '../../images/bannerA.jpg'
 const BannerAbout = () => {
     return (
         <div className='BannerAbout'>
-            BannerAbout
+            <img className='bannerImg' src={BannerImgA } alt="Paysage de montagne"/>
         </div>
     );
 };
