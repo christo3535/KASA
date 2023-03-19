@@ -1,0 +1,47 @@
+.Appartements {
+    
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    color: #F60606;
+    gap:30px
+}
+
+
+.title_logement {
+    font-size: 35px;
+    font-weight: 400;
+}
+.head_location {
+    font-weight: 300;
+}
+
+
+.host_pic {
+    border-radius: 50%;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****** TABLETTES **********/
+
+
+
+
+
+
+
+
+
+/****** MOBILES **********/
