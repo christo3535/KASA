@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import './appartements.css'
 import appartement from "../data/logements.json"
-
+import Collapse from '../components/Accordeon/Collapse';
 const Appartements = () => {
     const  { id } = useParams()
     let logement = appartement.find(e => e.id === id)

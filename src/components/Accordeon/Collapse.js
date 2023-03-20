@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rationg = () => {
+const Collapse = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Rationg = () => {
     );
 };
 
-export default Rationg;
+export default Collapse;

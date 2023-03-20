@@ -1,12 +1,17 @@
 import React from 'react';
 import BannerAbout from '@/components/Banner_about/BannerAbout';
-
+import AboutData from "../data/aboutData.json"
+import Collapse from '../components/Accordeon/Collapse';
 const About = () => {
     return (
-        <div>
+        <div className='aboutContainer'>
           <BannerAbout/>
-            About est ok !
-         <div>
+          
+         <div className='dropdownContainer'>
+          
+              {AboutData.map ((element, index) =>
+                <Collapse key={ index} content= { element.content} title= {element.title}/>
+              )}
             
          </div>
 
