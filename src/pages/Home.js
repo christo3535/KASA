@@ -10,7 +10,7 @@ const Home = () => {
       <BannerHome />
       
       <div className="appartementGrid">
-        {appartements.map((appartement, index) => (
+        {appartements.map((appartement) => (
           <Card key={appartement.id} appartement= {appartement}/>
         ))}
       </div>

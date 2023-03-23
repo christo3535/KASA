@@ -16,9 +16,9 @@ const Collapse = ({ title, content }) => {
       <h2 className="collapse_title" onClick={handleToggle}>
         {title}
         {toggle ? (
-          <img className="arrow" src={ArrowUp} alt="arrow" />
+          <img className="arrow arrow_up" src={ArrowUp} alt="arrow" />
         ) : (
-          <img className="arrow" src={ArrowDown} alt="arrow" />
+          <img className="arrow arrow_down" src={ArrowDown} alt="arrow" />
         )}
       </h2>
 

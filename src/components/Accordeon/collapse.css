@@ -9,6 +9,14 @@
     color: #FFF;
     display: flex;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    font-weight: 500;
+    width: 100%;
 }
 
 

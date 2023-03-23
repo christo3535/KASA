@@ -1,0 +1,13 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.collapseContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 15px;
+    width: 70%;
+}
