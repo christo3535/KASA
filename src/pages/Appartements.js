@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom';
 import './appartements.css'
 import appartement from "../data/logements.json"
 import Collapse from '../components/Accordeon/Collapse';
+import Raiting from '@/components/Rating/Raiting';
+
+
 const Appartements = () => {
     const  { id } = useParams()
     let logement = appartement.find(e => e.id === id)
@@ -28,7 +31,7 @@ const Appartements = () => {
                    <img className='host_pic' src={logement.host.picture} alt='propriaitaire du logement'/> 
                    </div>
                    <div className='logement_host_stars'>
-                    {logement.rating}
+                    <Raiting rating= {logement.rating}/>
                    </div>
                 </div>
             </div>

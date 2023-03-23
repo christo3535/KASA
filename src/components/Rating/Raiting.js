@@ -1,13 +1,36 @@
 import React from 'react';
 import "./rating.css"
-import "../../images/star_red.jpg"
-import "../../images/star_white.png"
+ import StarsRed from "../../images/star_red.jpg"
+import StarsWhite from "../../images/star_white.png"
 
 
-const Raiting = () => {
+const Raiting = ({rating}) => {
+
+ const starsRating = []
+//  const starsRed = ( <img   className='stars' src={StarsRed} alt="red stars"/>);
+//  const starsWhite = (<img  className='stars'  src={StarsWhite} alt="white stars"/>);
+ const calculateRest = 5 - rating;
+ 
+//  for( let a = 0; a < rating; a ++){
+//     starsRating.push( starsRed )
+//  };
+
+//  for( let b = 0; b < calculateRest; b ++ ){
+//     starsRating.push(starsWhite)
+//  }
+
+for(let a = 0; a < rating; a++) {
+    starsRating.push(<img key={`star-${a}`} className='stars' src={StarsRed} alt="red stars" />);
+  }
+  
+  for(let b = 0; b < calculateRest; b++) {
+    starsRating.push(<img key={`star-white-${b}`} className='stars' src={StarsWhite} alt="white stars" />);
+  }
+  
+ 
     return (
         <div>
-            
+            <p>{starsRating}</p>
         </div>
     );
 };
