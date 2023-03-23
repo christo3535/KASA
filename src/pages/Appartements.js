@@ -32,7 +32,10 @@ const Appartements = () => {
                    </div>
                 </div>
             </div>
-              <div className='Accordeon'></div>
+              <div className='Accordeon'>
+                <Collapse title={"Description"} content={logement.description}/>
+                <Collapse title={"Equipements"} content={logement.equipments}/>
+              </div>
         </main>
     );
 };
