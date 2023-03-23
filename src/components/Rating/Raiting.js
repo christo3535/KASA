@@ -20,7 +20,7 @@ const Raiting = ({rating}) => {
 //  }
 
 for(let a = 0; a < rating; a++) {
-    starsRating.push(<img key={`star-${a}`} className='stars' src={StarsRed} alt="red stars" />);
+    starsRating.push(<img key={`star-red-${a}`} className='stars' src={StarsRed} alt="red stars" />);
   }
   
   for(let b = 0; b < calculateRest; b++) {

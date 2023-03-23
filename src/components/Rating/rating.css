@@ -1,18 +1,20 @@
 .stars {
-    display: inline;
-    width: 32px;
+    display: inline-block;
+    width: 30px;
 }
 
 
 
 /******* Tablettes *****/
 
-
+@media screen  and (max-width:800px){
+    
+}
 
 /******* Mobiles ******/
 
-@media screen and (max-width){
+@media screen and (max-width:390px){
     .stars {
-        width: 15px;
+        width: 18px;
     }
 }
