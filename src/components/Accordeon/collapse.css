@@ -1,0 +1,22 @@
+.collapse {
+    width: 95%;
+    
+    
+}
+
+.collapse_title {
+    background-color: #FF6060;
+    color: #FFF;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+
+/****** MOBILES *******/
+
+@media screen and(max-widht:390px){
+    
+    
+}
