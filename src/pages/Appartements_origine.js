@@ -3,33 +3,36 @@ import { useParams } from "react-router-dom";
 import "./appartements.css";
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
-import Error from "@/_utils/Error";
+import Error from "@/_utils/Error"
 import Caroussel from "../components/Caroussel/Caroussel";
-
-import data from "../data/logements.json";
 
 const Appartements = () => {
   const { id } = useParams();
-  const [logement, setLogement] = useState([]);
+  const [data, setData] = useState([]); //4 setData maj du state
   const [loading, setLoading] = useState(true);
-
+  let logement = data.find((e) => e.id === id); //5 isole le logement
+  const [error, setError] = useState()
+  
   useEffect(() => {
-    setLogement(data.find((e) => e.id === id));
-    setLoading(false);
-    // eslint-disable-next-line
+    fetch("/data/logements.json") //1
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data); //2 tous les logements
+        setLoading(false);
+      })
+      .catch((err) => {
+       setError(err)
+       setLoading(false)
+      })
   }, []);
 
-  if (loading) {
-    return <div>Loading ...</div>;
+  if(!logement){
+    return <Error/>
   }
 
-  if (!logement) {
-    return <Error />;
-  }
-
-  return (
+  return !loading ? !error ?(
     <main className="Appartements">
-      <Caroussel picturesCaroussel={logement.pictures} />
+      <Caroussel picturesCaroussel={logement.pictures}/>
       <div className="logement_contenair">
         <div className="logement_head">
           <h1 className="title_logement">{logement.title}</h1>
@@ -61,6 +64,8 @@ const Appartements = () => {
         <Collapse title={"Equipements"} content={logement.equipments} />
       </div>
     </main>
+  ) : <h1>Error</h1>: (
+    <h1>Loading...</h1>
   );
 };
 
