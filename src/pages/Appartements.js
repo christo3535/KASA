@@ -3,25 +3,30 @@ import { useParams } from "react-router-dom";
 import "./appartements.css";
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
-
+// import Error from "@/_utils/Error"
+import Caroussel from "../components/Caroussel/Caroussel";
 const Appartements = () => {
   const { id } = useParams();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   let logement = data.find((e) => e.id === id);
-
+  const [error, setError] = useState()
   useEffect(() => {
     fetch("/data/logements.json")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
         setLoading(false);
-      });
+      })
+      .catch((err) => {
+       setError(err)
+       setLoading(false)
+      })
   }, []);
 
-  return !loading ? (
+  return !loading ? !error ?(
     <main className="Appartements">
-      <img className="appP" src={logement.pictures[0]} alt="appartement" />
+      <Caroussel picturesCaroussel={logement.pictures}/>
       <div className="logement_contenair">
         <div className="logement_head">
           <h1 className="title_logement">{logement.title}</h1>
@@ -53,7 +58,7 @@ const Appartements = () => {
         <Collapse title={"Equipements"} content={logement.equipments} />
       </div>
     </main>
-  ) : (
+  ) : <h1>Error</h1>: (
     <h1>Loading...</h1>
   );
 };
