@@ -1,9 +1,10 @@
 section {
   display: flex;
   flex-direction: column;
-  /* margin: 0px 18px; */
-  min-height: 100%;
-  margin-bottom: 30px;
+    margin: 0px 18px;  
+   min-height: 100%; 
+   gap: 30px; 
+   
 }
 
 .appartementGrid {
@@ -14,8 +15,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin-top: 30px;
-  /* padding-bottom: 25px; */
+  /* margin-top: 30px; */
   gap: 30px;
   padding: 25px;
 }
@@ -29,5 +29,8 @@ section {
      background-color: white;
      
     }
-   
+   section {
+    margin: auto;
+    gap: 10px;
+   }
 }

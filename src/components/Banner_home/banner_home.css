@@ -1,15 +1,15 @@
-.banner-home{
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 25px;
-    height: 230px;
+.banner-home {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 25px;
+  height: 230px;
 }
 
-.bannerHome{
+.bannerHome {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -18,29 +18,42 @@
   z-index: -1;
 }
 
-.bannerText{
-    position: absolute;
-    font-size: 45px;
-    color: #FFF;
-    width: 95%;
-    margin: auto;
-    text-align: center; 
-
+.bannerText {
+  position: absolute;
+  font-size: 45px;
+  color: #fff;
+  width: 95%;
+  margin: auto;
+  text-align: center;
 }
 
 /******* TABLETTES *****/
 
+/******* MOBILE *******/
 
+@media screen and (max-width: 390px) {
+  .banner-home {
+    height: 120px;
+    width: 85%;
+    border-radius: 10px;
+  }
 
+  .bannerText {
+    top: 30px;
+    left: 10px;
+    text-align: left;
+    width: 70%;
+    font-size: 25px;
+    height: auto;
+    line-height: 1.2;
+  }
+}
 
-/******* MOBILE *******/ 
-    @media screen  and (max-width: 390px){
-
-        .bannerText{
-            font-size: 20px;
-        }
-        
+@media screen  and (max-width:280px){
+    .bannerText{
+        font-size: 18px;
     }
-
-
-
+    .banner-home{
+        height: 100px;
+    }
+}

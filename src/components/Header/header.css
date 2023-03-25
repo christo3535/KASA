@@ -53,6 +53,7 @@ a{
 
     ul li {
         font-size: 20px;
+        
     }
 }
 
@@ -62,7 +63,7 @@ a{
 
 @media screen and (max-width:390px){
     .logo{
-        max-width: 100px;
+        max-width: 140px;
     
     }
     ul{
@@ -80,5 +81,19 @@ a{
    .activated{
     text-transform: uppercase;
    }
-    
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+}
+/****** GALAXY FOLD *******/
+
+@media screen  and (max-width: 280px){
+    .logo {
+        width: 90px;
+    }
+
+    ul li {
+        font-size: 10px;
+    }
 }
