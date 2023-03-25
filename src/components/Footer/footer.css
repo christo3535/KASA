@@ -7,10 +7,44 @@
     color: aliceblue;
     font-size: 25px;
     height: 250px;
-    margin-top: 50px;
+    /* margin-top: 30px; */
     gap: 50px;
 }
 
 .logoF {
     width: 150px;
 }
+
+
+/***** TABLETTES *******/
+@media screen and(max-width:820px) {
+    
+}
+
+
+/******* MOBILES *******/
+
+@media screen and (max-width:390px){
+
+    .Footer{
+        font-size: 20px;
+        
+    }
+
+    .logoF{
+        width: 100px;
+    }
+    
+}
+
+/**** GALAXI FOLD *****/
+
+@media screen  and (max-width:280px){
+.Footer {
+    font-size: 10px;
+    height: 180px;
+}
+  
+  
+}
+ 
