@@ -1,34 +1,91 @@
 .Appartements {
-    
+/*     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
     width: 95%;
+    flex-direction: column;
+    align-items: flex-start;
     margin: auto;
     color: #F60606;
-    gap:30px
+    gap:30px */
+    margin: auto;
+    color: #ff6060; 
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap:30px;
+    
+    
+
+    
+}
+.logement_contenair {
+    display:flex; 
+    gap: 20px;   
+margin-top: 25px;
+
+justify-content: space-between;
+
+
 }
 
-
+ .logement_head {
+    gap:20px;
+    
+    
+ }
 .title_logement {
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column; 
+    
 }
 .head_location {
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    
+    
 }
 
+ .logement_host{
+
+
+ }
+.host_info{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.tagC{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.tag{
+    background-color: #ff6060;
+    color: aliceblue;
+    display: flex;
+    border-radius: 5px;
+    padding: 3px 30px;
+    font-size: 15px;
+    
+}
 
 .host_pic {
     border-radius: 50%;
     width: 80px;
+    object-fit: cover;
 }
 
 .Accordeon{
     display: flex;
     gap: 20px;
-    
-    
-
+    flex-direction: row;
 }
 
 

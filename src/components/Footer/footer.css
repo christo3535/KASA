@@ -7,7 +7,7 @@
     color: aliceblue;
     font-size: 25px;
     height: 250px;
-    /* margin-top: 30px; */
+    margin-top: 30px; 
     gap: 50px;
 }
 
@@ -28,7 +28,7 @@
 
     .Footer{
         font-size: 20px;
-        
+        margin-top: 0px;
     }
 
     .logoF{

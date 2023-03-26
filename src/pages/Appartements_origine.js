@@ -34,6 +34,7 @@ const Appartements = () => {
     <main className="Appartements">
       <Caroussel picturesCaroussel={logement.pictures}/>
       <div className="logement_contenair">
+    <div className="infos">
         <div className="logement_head">
           <h1 className="title_logement">{logement.title}</h1>
           <h2 className="head_location">{logement.location}</h2>
@@ -44,6 +45,7 @@ const Appartements = () => {
               {tag}
             </span>
           ))}
+        </div>
         </div>
         <div className="logement_host">
           <div className="host_infos">

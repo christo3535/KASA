@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import arrowRight from "../../images/arrow_forward.png";
-import arrowLeft from "../../images/arrowleft.png";
+import arrowRight from "../../images/arrow-right.png";
+import arrowLeft from "../../images/arrow-left.png";
 import "./caroussel.css";
 
 const Caroussel = ({ picturesCaroussel }) => {
@@ -28,23 +28,23 @@ const Caroussel = ({ picturesCaroussel }) => {
   
   return (
     <div className="caroussel">
-       
+        <div className="slider">
         <img className="imageCaroussel" src={picture} alt="appartement" />
-       
+         </div>
         
           <img
             className="caroussel_arrow  caroussel_arrow_right"
             src={arrowRight}
-            alt=""
+            alt="arrow"
             onClick={handleNextSlide}
           />
           <img
-            className="caroussel_arrow caroussel_arrow_right"
+            className="caroussel_arrow caroussel_arrow_left"
             src={arrowLeft}
-            alt=""
+            alt="arrow"
             onClick={handlePreventSlide}
           />
-          <span className="styleCount">{count}</span>
+          <span className="styleCount">{count}/{picturesCaroussel.length}</span>
     
     
     </div>

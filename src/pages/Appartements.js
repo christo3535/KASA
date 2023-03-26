@@ -31,16 +31,18 @@ const Appartements = () => {
     <main className="Appartements">
       <Caroussel picturesCaroussel={logement.pictures} />
       <div className="logement_contenair">
+        <div className="infoL">
         <div className="logement_head">
           <h1 className="title_logement">{logement.title}</h1>
           <h2 className="head_location">{logement.location}</h2>
         </div>
-        <div>
+        <div className="tagC">
           {logement.tags.map((tag, index) => (
             <span className="tag" key={index}>
               {tag}
             </span>
           ))}
+        </div>
         </div>
         <div className="logement_host">
           <div className="host_infos">
