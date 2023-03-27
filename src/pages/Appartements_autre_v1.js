@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import "./appartements.css";
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
-// import Error from "@/_utils/Error"
+import Error from "@/_utils/Error"
 import Caroussel from "../components/Caroussel/Caroussel";
 
 const Appartements = () => {
@@ -61,7 +61,7 @@ const Appartements = () => {
         </div>
       </main>
     ) : (
-      <h1>Error</h1>
+      <h1><Error/></h1>
     )
   ) : (
     <h1>Loading...</h1>

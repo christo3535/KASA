@@ -11,3 +11,21 @@
     gap: 15px;
     width: 70%;
 }
+
+
+
+/****** MOBILES ********/
+
+@media screen and (max-width: 390px) {
+    .aboutContainer{
+        width: 100%
+        
+    }
+    .collapseContainer{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+        gap: 25px;
+    }
+    
+}
