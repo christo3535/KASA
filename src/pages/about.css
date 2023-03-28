@@ -20,13 +20,14 @@
         gap: 60px;
     }
     .collapseContainer{
-        gap: 40px;
+
+        gap: 80px;
     }
 }
 
 /****** MOBILES ********/
 
-@media screen and (max-width: 4200px) {
+@media screen and (max-width: 420px) {
     .aboutContainer{
         width: 100%;
         margin-bottom: 50px;

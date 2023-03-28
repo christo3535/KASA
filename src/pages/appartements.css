@@ -48,9 +48,11 @@
 }
 
 .logement_host {
-  align-items: end;
+  display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
   /* margin-right: -30px; */
 }
 
@@ -58,23 +60,26 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  justify-content: space-around;
 }
 
 .host_name {
   font-size: 20px;
-  width: 40%;
+  /* width: 40%; */
+  text-align: right;
 }
 
 .host_pic {
   border-radius: 50%;
-  width: 60px;
+  width: 60px; 
   object-fit: cover;
-   margin-right: -20px; 
+   /* margin-right: -20px;  */
 }
 
 .logement_host_stars {
-  margin-top: 10px;
-  margin-left: -10px;
+  /* margin-top: 10px;
+  margin-left: -10px; */
+  align-self: flex-end;
 }
 
 .tagC {
@@ -112,6 +117,7 @@
   }
 
   .logement_contenair{
+    display: flex;
     flex-direction: column;
   }
 .logement_host{

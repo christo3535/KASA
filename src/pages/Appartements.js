@@ -14,10 +14,11 @@ const Appartements = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log(id);
     setLogement(data.find((e) => e.id === id));
     setLoading(false);
-    // eslint-disable-next-line
-  }, []);
+    
+  }, [id]);
 
   if (loading) {
     return <div>Loading ...</div>;
