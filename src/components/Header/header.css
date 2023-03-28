@@ -61,7 +61,7 @@ a{
 
 /***** MOBILES  ***********/
 
-@media screen and (max-width:4200px){
+@media screen and (max-width:420px){
     .logo{
         max-width: 140px;
     
@@ -73,7 +73,7 @@ a{
 
     ul li {
         display: inline-block;
-        font-size: 14px;
+         font-size: 14px; 
         margin: 5px;
     }
    
