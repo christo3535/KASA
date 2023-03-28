@@ -53,3 +53,25 @@
     z-index: 10;
 }
 
+/*******Tablettes *****/
+@media screen  and (max-width: 820px){
+
+    .appartementTitle{
+        font-size: 18px;
+    }
+    
+}
+
+/***** Mobiles  ******/
+
+
+
+@media screen  and (max-width: 290px){
+
+    .cartApartement {
+        height:250px ;
+    }
+    .appartementTitle{
+        font-size: 14px;
+    }
+}

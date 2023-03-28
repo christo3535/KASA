@@ -61,7 +61,7 @@ a{
 
 /***** MOBILES  ***********/
 
-@media screen and (max-width:390px){
+@media screen and (max-width:4200px){
     .logo{
         max-width: 140px;
     
