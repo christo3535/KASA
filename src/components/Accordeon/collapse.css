@@ -25,10 +25,10 @@
   background-color: #F7F7F7;
   color: #FF6060;
   border-radius: 5px;
-  padding: 40px;
+  padding: 30px 20px;
   gap: 5px;
   visibility: visible;
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: 2px;
   transition: visibility 0.5s ease-in-out,
                     opacity 0.5s ease-in-out,

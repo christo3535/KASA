@@ -51,7 +51,7 @@
   align-items: end;
   flex-direction: column;
   gap: 30px;
-  margin-right: -30px;
+  /* margin-right: -30px; */
 }
 
 .host_infos {
@@ -114,5 +114,9 @@
   .logement_contenair{
     flex-direction: column;
   }
+.logement_host{
+  
+  
+}
 
 }
