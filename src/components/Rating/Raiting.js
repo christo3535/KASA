@@ -1,7 +1,8 @@
 import React from "react";
 import "./rating.css";
-import StarsRed from "../../images/star_red.jpg";
-import StarsWhite from "../../images/star_white.png";
+import StarsRed from "../../images/starsPink.svg";
+import StarsWhite from "../../images/starsWhite.svg";
+
 
 const Raiting = ({ rating }) => {
   const starsRating = [];

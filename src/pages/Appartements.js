@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./appartements.css";
+// import "./appartements.css";
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
 import Error from "@/_utils/Error";
 import Caroussel from "../components/Caroussel/Caroussel";
 
 import data from "../data/logements.json";
+import "./apartessai.css"
 
 const Appartements = () => {
   const { id } = useParams();
@@ -33,10 +34,10 @@ const Appartements = () => {
       <Caroussel picturesCaroussel={logement.pictures} />
       <div className="logement_contenair">
         <div className="infoL">
-        <div className="logement_head">
+        {/* <div className="logement_head"> */}
           <h1 className="title_logement">{logement.title}</h1>
           <h2 className="head_location">{logement.location}</h2>
-        </div>
+        {/* </div> */}
         <div className="tagC">
           {logement.tags.map((tag, index) => (
             <span className="tag" key={index}>
