@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import "./appartements.css";
+ import "./appartements.css"
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
 import Error from "@/_utils/Error";
 import Caroussel from "../components/Caroussel/Caroussel";
 
 import data from "../data/logements.json";
-import "./apartessai.css"
+// import "./apartessai.css"
 
 const Appartements = () => {
   const { id } = useParams();
