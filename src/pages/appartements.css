@@ -94,6 +94,15 @@
   /********* Tablettes ********/
 
   @media screen and (max-width: 920px) {
+     
+ 
+    .Accordeon{
+      width: 100%;
+      flex-direction: column;
+      gap:100px;
+      padding-left: 20px;
+      
+    }
      .logement_contenair {
          flex-direction: column; 
      }
@@ -103,6 +112,14 @@
      .head_location{
         font-size: 20px;
      }
+     .tag{
+      margin-bottom: 25px;
+     }
+
+     .logement_host{
+
+      display: flex;
+     }
 
      .logement_host{
         display: flex;
@@ -110,7 +127,7 @@
         justify-content: space-between;
         align-items: center;
     
-     }
+     } 
    .host_pic{
     justify-items: center;
    }
@@ -120,4 +137,89 @@
    }
   } 
     
+/********* MOBILES   **********/
+
+
+@media screen and (max-width: 420px) {
+  .Accordeon {
+    display: flex;
+    gap:40px;
+    padding: 0;
+    
   
+  }
+  .tag {
+    font-size: 9px;
+    font-weight:600;
+     /* width: 95%;  */
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-bottom: 18px;
+  
+    
+  }
+
+  .logement_contenair{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .title_logement{
+    font-size: 18px;
+  }
+  .head_location{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+
+.logement_host{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.host_name{
+  font-size: 15px;
+}
+.host_pic{
+  width: 40px;
+}
+}
+  
+
+
+
+
+@media screen  and (max-width: 280px){
+
+  .logement_contenair {
+    
+    
+  }
+.title_logement{
+  font-size: 13px;
+}
+.head_location{
+  font-size: 10px;
+}
+
+.tagC{
+  gap: 5px;
+}
+.tag{
+  font-size: 5px;
+}
+
+.Accordeon{
+  flex-direction: column;
+  margin: auto;
+}
+
+
+}
