@@ -55,6 +55,10 @@
   }
   .error-title{
     font-size: 100px;
+
+  }
+  .error_info span {
+    display: block;
   }
 
   .error_info {
