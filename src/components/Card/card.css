@@ -50,7 +50,7 @@
     width: 75%;
     text-align: left;
     font-size: 18px;
-    z-index: 10;
+    z-index: 1;
 }
 
 /*******Tablettes *****/
@@ -63,13 +63,18 @@
 }
 
 /***** Mobiles  ******/
-
+@media screen  and (max-width:420px){
+    .cartApartement{
+        height: 300px;
+    }
+    
+}
 
 
 @media screen  and (max-width: 290px){
 
     .cartApartement {
-        height:250px ;
+        height:200px ;
     }
     .appartementTitle{
         font-size: 14px;

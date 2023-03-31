@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  width: 95%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   border-radius: 25px;
@@ -15,7 +15,7 @@
   height: 100%;
   object-fit: cover;
   filter: brightness(70%);
-  /* z-index: -1; */
+  
 }
 
 .bannerText {
@@ -45,7 +45,8 @@
   .banner-home {
     height: 120px;
     width: 85%;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 0%;
   }
 
   .bannerText {
