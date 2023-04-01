@@ -95,7 +95,9 @@
 
   @media screen and (max-width: 920px) {
      
- 
+  .Appartements{
+    padding:10px 30px;
+  }
     .Accordeon{
       width: 100%;
       flex-direction: column;
@@ -143,20 +145,19 @@
 @media screen and (max-width: 420px) {
   .Accordeon {
     display: flex;
-    gap:40px;
+    gap:20px;
     padding: 0;
     
-  
   }
   .tag {
     font-size: 9px;
     font-weight:600;
-     /* width: 95%;  */
     white-space: nowrap;
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
     margin-bottom: 18px;
+     /* min-width: 85px;  */
   
     
   }
@@ -190,6 +191,9 @@
 .host_pic{
   width: 40px;
 }
+.Appartements{
+  padding: 0 15px;
+}
 }
   
 
@@ -214,6 +218,7 @@
 }
 .tag{
   font-size: 5px;
+  min-width: 50px;
 }
 
 .Accordeon{

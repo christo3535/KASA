@@ -45,7 +45,7 @@
 @media screen and (max-width: 420px) {
   .banner-home {
     height: 120px;
-    width: 85%;
+    width: 86%; 
     border-radius: 15px;
     padding: 0%;
   }
@@ -54,10 +54,13 @@
     top: 30px;
     left: 10px;
     text-align: left;
-    width: 70%;
+    /* width: 70%; */
     font-size: 25px;
     height: auto;
     line-height: 1.2;
+  }
+  .bannerText span {
+    display: block;
   }
 }
 

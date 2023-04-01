@@ -2,7 +2,7 @@
 
 .BannerAbout {
     position: relative;
-    height: 230px;
+    height: 250px;
     margin: auto;
     overflow: hidden;
     border-radius: 25px;
@@ -21,7 +21,7 @@
 
 @media screen  and (max-width:820px){
     .BannerAbout{
-        height: 250px;
+        /* height: 250px; */
         border-radius: 10px;
     }
 }
@@ -33,7 +33,7 @@
     .BannerAbout{
         border-radius: 10px;
         width: 90%;
-        height: 200px;
+        height: 250px;
 
     }
 }

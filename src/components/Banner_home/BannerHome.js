@@ -7,7 +7,7 @@ const BannerHome = () => {
         <div className='banner-home'>
             <img className={"bannerHome"} src={BannerImg} alt="Vue de mer, falaises et forêt"/>
             <div className='bannerText'>
-              <p>Chez vous, partout et ailleurs</p>
+              <p>Chez vous, <span>partout et ailleurs</span></p>
             </div>
         </div>
     );

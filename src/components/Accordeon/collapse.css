@@ -10,7 +10,7 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 25px;
-    padding: 15px ;
+    padding: 10px ;
     align-items: center;
     justify-content: space-between;
     height: 55px;
@@ -21,15 +21,14 @@
 
 .collapse_content{
   display: flex; 
-  flex-direction: column;
+  flex-direction: column; 
   background-color: #F7F7F7;
   color: #FF6060;
   border-radius: 5px;
-  padding: 30px 20px;
+  padding: 30px ;
   gap: 5px;
-  visibility: visible;
-  font-size: 22px;
-  letter-spacing: 2px;
+  
+  letter-spacing: 0.5;  
   transition: visibility 0.5s ease-in-out,
                     opacity 0.5s ease-in-out,
                     height 0.2s ease-in-out;
