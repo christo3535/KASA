@@ -1,5 +1,8 @@
+
+
 .collapse {
     width: 95%;
+    
     
 }
 
@@ -13,10 +16,11 @@
     padding: 10px ;
     align-items: center;
     justify-content: space-between;
-    height: 55px;
+    /* height: 55px; */
     font-weight: 500;
     width: 100%;
     margin-top: 15px;
+    
 }
 
 .collapse_content{
@@ -37,7 +41,8 @@
 .collapse_hiden{
     visibility: hidden;
     opacity: 0;
-    height: 0;
+     height:0; 
+
 }
 
 .arrow {
@@ -55,12 +60,15 @@
 
 
 /****** MOBILES *******/
-@media screen  and (max-width: 390px){
+@media screen  and (max-width: 420px){
   
     .collapse{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        /* width: 100%; */
+
+        
+        
+        margin: auto;
+        /* background-color: aqua; */
         
     }
 
@@ -72,7 +80,10 @@
     }
 
     .collapse_content{
-        font-size: 14px;
+        font-size: 12px;
+         padding: 15px 12px; 
+        /* margin-bottom: 950px; */
+        
     }
 
     .arrow{
@@ -80,4 +91,3 @@
     }
     
 } 
-    

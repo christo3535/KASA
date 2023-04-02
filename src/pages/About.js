@@ -3,6 +3,8 @@ import BannerAbout from '@/components/Banner_about/BannerAbout';
 import AboutData from "../data/aboutData.json"
 import Collapse from '../components/Accordeon/Collapse';
 import "./about.css"
+// import "./ab.css"
+
 const About = () => {
     return (
         <div className='aboutContainer'>

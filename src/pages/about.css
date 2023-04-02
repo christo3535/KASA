@@ -1,3 +1,5 @@
+
+
 .aboutContainer {
     display: flex;
     flex-direction: column;
@@ -5,6 +7,7 @@
     max-width:1240px ;
     margin: 0 auto;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .collapseContainer {
@@ -12,9 +15,10 @@
     flex-direction: column;
     margin:  auto ; 
     margin-left: 90px;
-    gap: 15px;
+    gap: 15px; 
     width: 90%;
     font-size: 25px;
+    overflow: hidden;
 }
 
 /***** Tablettes   *****/
@@ -25,7 +29,11 @@
     }
     .collapseContainer{
        margin: auto;
-        gap: 80px;
+       /* background-color: aqua; */
+        gap: 80px; 
+        width: 80%;
+        /* margin-left: 70px; */
+        overflow: hidden;
     }
 }
 
@@ -36,7 +44,11 @@
         width: 100%;
         /* gap:80px */
         /* margin-bottom: 50px; */
-        gap:35px;
+        gap:15px;
+        /* flex-direction: column-reverse; */
+        /* background-color: aqua; */
+        overflow: hidden;
+
         
     }
     .collapseContainer{
@@ -44,9 +56,8 @@
         margin: auto;
         margin-bottom:40px;
         gap:35px;
+        overflow: hidden;
          
     }
     
 }
-
-

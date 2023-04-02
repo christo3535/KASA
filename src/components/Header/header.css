@@ -50,12 +50,17 @@ a{
 
 /***** TABLETTES  ********/
 
-@media screen and (max-width:750px) {
-
+@media screen and (max-width:920px) {
+  header {
+   margin: auto;
+   padding: 25px;
+  }
     ul li {
-        font-size: 20px;
+        font-size: 25px;
+    
         
     }
+    
 }
 
 

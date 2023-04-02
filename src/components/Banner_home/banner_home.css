@@ -33,7 +33,9 @@
   .bannerText {
     width: 85%;
   }
-
+   .banner-home{
+    width: 93%;
+   }
   .bannerText{
     font-size: 39px;
     text-align: end;
