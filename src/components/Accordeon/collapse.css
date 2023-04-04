@@ -64,10 +64,10 @@
   
     .collapse{
         /* width: 100%; */
-
+     /* margin: 0; */
         
         
-        margin: auto;
+     margin: auto; 
         /* background-color: aqua; */
         
     }

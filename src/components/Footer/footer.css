@@ -9,6 +9,7 @@
     height: 250px;
     /* margin-top: 30px;  */
     gap: 50px;
+    max-width: 1240;
 }
 
 .logoF {

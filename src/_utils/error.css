@@ -7,7 +7,6 @@
     align-items: center;
     gap: 45px;
     /* margin-bottom: 50px;  */
-  
     width: 95%;
     padding-bottom: 40px;
   
@@ -44,9 +43,21 @@
   text-decoration:none;
   transition:0.5s all;
 }  */
+/******* TABLETTE **************/
+ 
+@media screen  and (max-width: 920px){
+  .error_info{
+    text-align: center;
+    font-size: 25px;
+  }
 
-
-
+  .error-title{
+    font-size: 240px;
+  }
+  .backLink{
+    font-size: 20px;
+  }
+}
 /****** MOBILES *****/
 
 @media screen and (max-width: 420px) {

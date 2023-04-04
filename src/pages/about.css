@@ -54,8 +54,8 @@
     .collapseContainer{
         width: 90%;
         margin: auto;
-        margin-bottom:40px;
-        gap:35px;
+        /* margin-bottom:40px; */
+        gap:15px;
         overflow: hidden;
          
     }
