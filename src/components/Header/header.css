@@ -79,9 +79,10 @@ a{
 
     ul li {
         display: inline-block;
-         font-size: 14px; 
-        margin: 5px;
+         font-size: 13px; 
+        margin: 7px;
         text-transform: uppercase;
+        
     }
    
 

@@ -118,6 +118,7 @@
     
   
   }
+  
   .tag {
     font-size: 9px;
     font-weight:600;
@@ -143,20 +144,20 @@
     font-size: 15px;
     margin-top: 10px;
   }
-.logement_host{
+/* .logement_host{
+  background-color: red;
   
-  
-}
+} */
 
 }
 
 
 @media screen  and (max-width: 280px){
 
-  .logement_contenair {
+  /* .logement_contenair {
     
     
-  }
+  } */
 .title_logement{
   font-size: 13px;
 }
