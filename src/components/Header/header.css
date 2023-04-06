@@ -67,7 +67,7 @@ a{
 
 /***** MOBILES  ***********/
 
-@media screen and (max-width:420px){
+@media screen and (max-width:570px){
     .logo{
         max-width: 140px;
     
@@ -85,10 +85,10 @@ a{
         
     }
    
-
+/* 
    .activated{
     text-transform: uppercase;
-   }
+   } */
     header {
         padding: 25px;
         width: 100%;
