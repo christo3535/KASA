@@ -12,12 +12,7 @@
     justify-content: space-between;
     margin-bottom: 15px;
 }
-/* 
-.infoL{
-    display: flex;
-    flex-direction: column;
-    
-} */
+
 
 .title_logement{
    font-size: 36px;
@@ -41,13 +36,8 @@
     margin-top: 20px;
   }
 
-
-.Accordeon {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-  }
-.tag {
+ 
+  .tag {
     background-color: #ff6060;
     color: aliceblue;
     display: flex;
@@ -56,6 +46,14 @@
     font-size: 15px;
   }
 
+
+
+.Accordeon {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+ 
   .logement_host {
     display: flex;
     align-items: flex-end;
@@ -159,7 +157,7 @@
     justify-content: center;
     padding: 5px 10px;
     margin-bottom: 18px;
-     /* min-width: 85px;  */
+     min-width: 85px; 
   
     
   }

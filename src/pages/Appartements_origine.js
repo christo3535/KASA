@@ -4,7 +4,7 @@ import "./appartements.css";
 import Collapse from "../components/Accordeon/Collapse";
 import Raiting from "@/components/Rating/Raiting";
 import Error from "@/_utils/Error"
-import Caroussel from "../components/Caroussel/Caroussel";
+import Caroussel from "@/components/Caroussel/Caroussel";
 
 const Appartements = () => {
   const { id } = useParams();

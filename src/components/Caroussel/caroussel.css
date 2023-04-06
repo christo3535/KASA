@@ -5,15 +5,6 @@
     
 }
 
-/* 
-.slider {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    position: relative;
-    transition:all 5000ms ease-in-out;
-} */
 
 .imageCaroussel{
     width: 100%;
@@ -34,7 +25,7 @@
     top:50%;
     cursor: pointer;
     transition: transform 0.4s;
-    background: none;
+    /* background: none; */
     /* transform: translateY(50%); */
 }
 
@@ -88,14 +79,6 @@
      
     
     }
-/*     
-    .caroussel_arrow_left:hover,
-    .caroussel_arrow_right:hover{
-        background-color: rgba(255,255,255, 0.2);
-    } */
-   
-    
-    
 
     .caroussel_arrow_left{
         left: 5px;
@@ -105,5 +88,15 @@
     }
 
 
+    
+}
+
+
+
+@media screen and (max-width:290px) {
+    .imageCaroussel{
+        height: 180px;
+    }
+    
     
 }

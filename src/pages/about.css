@@ -18,7 +18,7 @@
     gap: 15px; 
     width: 90%;
     font-size: 25px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /***** Tablettes   *****/
@@ -33,7 +33,7 @@
         gap: 80px; 
         width: 80%;
         /* margin-left: 70px; */
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
 
@@ -42,11 +42,7 @@
 @media screen and (max-width: 420px) {
     .aboutContainer{
         width: 100%;
-        /* gap:80px */
-        /* margin-bottom: 50px; */
         gap:15px;
-        /* flex-direction: column-reverse; */
-        /* background-color: aqua; */
         overflow: hidden;
 
         
@@ -56,7 +52,7 @@
         margin: auto;
         /* margin-bottom:40px; */
         gap:15px;
-        overflow: hidden;
+        /* overflow: hidden; */
          
     }
     
