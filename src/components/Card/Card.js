@@ -9,7 +9,7 @@ const Card = ({appartement}) => {
             
               <img className={ 'appartementImg' } src = { appartement.cover } alt="photos des appartements à louer"/>
               <h2 className={"appartementTitle"}>{ appartement.title }</h2>
-               {/* </div> */}
+               
             </Link>
         </div>
     );

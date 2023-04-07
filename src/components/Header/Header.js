@@ -12,15 +12,13 @@ const Header = () => {
                 <nav >
                     <ul>
                        <li>
-                      <NavLink className={({ isActive}) => (isActive ? "activated" : "link")} to='/home'>
+                      <NavLink className={({isActive}) => isActive ? "activated" : "link"} to='/home'>
                               Accueil
                       </NavLink>
 
                       </li>
                       <li>
-                      <NavLink className={({ isActive}) => (isActive ? "activated" : "link")} to='/about'>
-
-    
+                      <NavLink className={({isActive}) => isActive ? "activated" : "link"} to='/about'>
                             A Propos
                       </NavLink>
                       </li>

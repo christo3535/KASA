@@ -8,7 +8,7 @@ import Error from "@/_utils/Error";
 // import Appartements from "@/pages/Appartements";
 import Appartements from "./pages/Appartements";
 import Layout from "@/pages/Layout";
-import Footer from "@/components/Footer/Footer";
+
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
-        <Footer />
+      
       </BrowserRouter>
     </div>
   );
