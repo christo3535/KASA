@@ -1,14 +1,11 @@
-
-import Home from "@/pages/Home"
+import Home from "@/pages/Home";
 import "./App.css";
 import About from "@/pages/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Error from "@/_utils/Error";
 
-// import Appartements from "@/pages/Appartements";
-import Appartements from "./pages/Appartements";
+import Appartements from "@/pages/Appartements";
 import Layout from "@/pages/Layout";
-
 
 function App() {
   return (
@@ -24,7 +21,6 @@ function App() {
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
-      
       </BrowserRouter>
     </div>
   );

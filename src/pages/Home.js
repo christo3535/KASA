@@ -7,8 +7,7 @@ import "./home.css"
 const Home = () => {
   return (
     <section>
-      <BannerHome />
-      
+      <BannerHome />   
       <div className="appartementGrid">
         {appartements.map((appartement) => (
           <Card key={appartement.id} appartement= {appartement}/>
