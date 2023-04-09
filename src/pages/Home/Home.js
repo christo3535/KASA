@@ -10,7 +10,7 @@ const Home = () => {
       <BannerHome />   
       <div className="appartementGrid">
         {appartements.map((appartement) => (
-          <Card key={appartement.id} appartement= {appartement}/>
+          <Card key={appartement.id} appartement= {appartement}/>//retourne un composant Card pour chaque appartement
         ))}
       </div>
     </section>

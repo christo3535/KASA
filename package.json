@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "starto": "craco start --verbose",
     "build": "craco build",
-    "test": "react-scripts test",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
