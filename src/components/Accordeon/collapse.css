@@ -46,7 +46,7 @@
 }
 
 .arrow {
-    transition: all 2000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
 }
 
 .arrow_up{
@@ -54,7 +54,7 @@
 } 
 
 .arrow_down{
-     transform: rotate(180deg); 
+     transform: rotate(0deg); 
 }
 
 

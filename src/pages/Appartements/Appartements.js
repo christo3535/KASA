@@ -10,11 +10,11 @@ import data from "@/data/logements.json";
 
 
 const Appartements = () => {
-  const { id } = useParams();
+  const { id } = useParams();//trouve la valeur du parametre id dans URL
   const [logement, setLogement] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  useEffect(() => {//mettre à jour le composant chaque fois quand l'id change
   
     setLogement(data.find((e) => e.id === id));
     setLoading(false);
