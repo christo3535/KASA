@@ -4,9 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    /* margin-right: 70px; */
-    
-    padding:   30px  0; 
+    padding:30px  0; 
     max-width: 1240px;
 }
 
@@ -59,9 +57,7 @@ a{
    padding: 25px;
   }
     ul li {
-        font-size: 25px;
-    
-        
+        font-size: 25px;       
     }
     
 }
@@ -83,14 +79,9 @@ a{
         display: inline-block;
          font-size: 13px; 
         margin: 7px;
-        text-transform: uppercase;
-        
+        text-transform: uppercase;     
     }
    
-/* 
-   .activated{
-    text-transform: uppercase;
-   } */
     header {
         padding: 25px;
         width: 100%;

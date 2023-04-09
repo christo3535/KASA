@@ -31,18 +31,7 @@
   font-size: 18px;
   margin-bottom: 50px;
 }
-/* 
-.backLink:hover {
-  background-color: #ff6060;
-  color: white;
-  font-size:18px;
-  font-weight: bold;
-  border: 2px solid #b0541a;
-  border-radius: 15px;
-  padding: .5em;
-  text-decoration:none;
-  transition:0.5s all;
-}  */
+
 /******* TABLETTE **************/
  
 @media screen  and (max-width: 920px){

@@ -7,6 +7,7 @@
     overflow: hidden;
     /* margin-top: 40px; */
     position: relative;
+    transition: transform 0.5s;
 }
 
 .Card:hover{
@@ -36,7 +37,7 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-    transition: transform 0.5s ;
+    /* transition: transform 0.5s ; */
 }
 
 
@@ -50,15 +51,7 @@
     font-size: 18px;
     z-index: 1;
 }
-
-/*******Tablettes *****/
-@media screen  and (max-width: 820px){
-
-    .appartementTitle{
-        font-size: 18px;
-    }
-    
-}
+ 
 
 /***** Mobiles  ******/
 @media screen  and (max-width:420px){
@@ -67,6 +60,8 @@
     }
     
 }
+
+
 
 
 @media screen  and (max-width: 290px){

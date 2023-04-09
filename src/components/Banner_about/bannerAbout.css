@@ -23,10 +23,8 @@
 
 @media screen  and (max-width:920px){
     .BannerAbout{
-        /* height: 250px; */
         border-radius: 10px;
         width: 93%;
-        /* margin-top: 50px; */
     }
 }
 

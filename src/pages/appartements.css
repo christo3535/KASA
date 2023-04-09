@@ -1,227 +1,195 @@
-.Appartements{
-
-    color: #ff6060;
-    max-width: 1240px;
-    margin: 0 auto  50px;
+.Appartements {
+  color: #ff6060;
+  max-width: 1240px;
+  margin: 0 auto 50px;
 }
 
-
-.logement_contenair{
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+.logement_contenair {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
-
-.title_logement{
-   font-size: 36px;
-   font-weight: 500;
-   /* margin-right: auto; */
+.title_logement {
+  font-size: 36px;
+  font-weight: 500;
+  /* margin-right: auto; */
 }
 
 .head_location {
-    margin: 10px  0px;
-    font-weight: 500;
-
+  margin: 10px 0px;
+  font-weight: 500;
 }
 
+.tagC {
+  /* width: 100%; */
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
-  .tagC {
-    /* width: 100%; */
-    display: flex;
-    gap:15px;
-    /* position: relative; */
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-
- 
-  .tag {
-    background-color: #ff6060;
-    color: aliceblue;
-    display: flex;
-    border-radius: 5px;
-    padding: 3px 30px;
-    font-size: 15px;
-  }
-
-
+.tag {
+  background-color: #ff6060;
+  color: aliceblue;
+  display: flex;
+  border-radius: 5px;
+  padding: 3px 30px;
+  font-size: 15px;
+}
 
 .Accordeon {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-  }
- 
-  .logement_host {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
-  }
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
 
-  .host_infos{
-    display: flex;
-    align-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap:15px;
-    text-align: right;
-    flex-wrap: nowrap;
-    width: min-content;
-    /* font-size: 20px; */
-  }
-  .host_name{
-    display: flex;
-    font-size: 20px;
-    font-weight: 500;
-    align-items: flex-end;
-  }
+.logement_host {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.host_infos {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  text-align: right;
+  flex-wrap: nowrap;
+  width: min-content;
+  /* font-size: 20px; */
+}
+.host_name {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: flex-end;
+}
 
 .host_pic {
-    border-radius: 50%;
-    width: 70px;
-    object-fit: cover;
-     /* margin-right: -20px;  */
+  border-radius: 50%;
+  width: 70px;
+  object-fit: cover;
+}
+
+/********* Tablettes ********/
+
+@media screen and (max-width: 920px) {
+  .Appartements {
+    padding: 10px 30px;
   }
-  
-
-
-  /********* Tablettes ********/
-
-  @media screen and (max-width: 920px) {
-     
-  .Appartements{
-    padding:10px 30px;
+  .Accordeon {
+    width: 100%;
+    flex-direction: column;
+    gap: 100px;
+    padding-left: 20px;
   }
-    .Accordeon{
-      width: 100%;
-      flex-direction: column;
-      gap:100px;
-      padding-left: 20px;
-      
-    }
-     .logement_contenair {
-         flex-direction: column; 
-     }
-     .title_logement{
-        font-size: 25px;
-     }
-     .head_location{
-        font-size: 20px;
-     }
-     .tag{
-      margin-bottom: 25px;
-     }
+  .logement_contenair {
+    flex-direction: column;
+  }
+  .title_logement {
+    font-size: 25px;
+  }
+  .head_location {
+    font-size: 20px;
+  }
+  .tag {
+    margin-bottom: 25px;
+  }
 
-     .logement_host{
+  .logement_host {
+    display: flex;
+  }
 
-      display: flex;
-     }
-
-     .logement_host{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-    
-     } 
-   .host_pic{
+  .logement_host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .host_pic {
     justify-items: center;
-   }
-   .host_infos{
-    display: flex;  
-    
-   }
-  } 
-    
-/********* MOBILES   **********/
+  }
+  .host_infos {
+    display: flex;
+  }
+}
 
+/********* MOBILES   **********/
 
 @media screen and (max-width: 420px) {
   .Accordeon {
     display: flex;
-    gap:20px;
+    gap: 20px;
     padding: 0;
-    
   }
   .tag {
     font-size: 9px;
-    font-weight:600;
+    font-weight: 600;
     white-space: nowrap;
     align-items: center;
     justify-content: center;
     padding: 5px 10px;
     margin-bottom: 18px;
-     min-width: 85px; 
-  
-    
+    min-width: 85px;
   }
 
-  .logement_contenair{
+  .logement_contenair {
     display: flex;
     flex-direction: column;
     padding: 0px 10px;
   }
 
-  .title_logement{
+  .title_logement {
     font-size: 18px;
   }
-  .head_location{
+  .head_location {
     font-size: 15px;
     margin-top: 10px;
   }
 
+  .logement_host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.logement_host{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-
+  .host_name {
+    font-size: 15px;
+  }
+  .host_pic {
+    width: 40px;
+  }
+  .Appartements {
+    padding: 0 15px;
+  }
 }
 
-.host_name{
-  font-size: 15px;
-}
-.host_pic{
-  width: 40px;
-}
-.Appartements{
-  padding: 0 15px;
-}
-}
-  
+@media screen and (max-width: 280px) {
+  .title_logement {
+    font-size: 13px;
+  }
+  .head_location {
+    font-size: 10px;
+  }
 
+  .tagC {
+    gap: 5px;
+  }
+  .tag {
+    font-size: 5px;
+    min-width: 50px;
+  }
 
-
-
-@media screen  and (max-width: 280px){
-
-  
-.title_logement{
-  font-size: 13px;
-}
-.head_location{
-  font-size: 10px;
-}
-
-.tagC{
-  gap: 5px;
-}
-.tag{
-  font-size: 5px;
-  min-width: 50px;
-}
-
-.Accordeon{
-  flex-direction: column;
-  margin: auto;
-}
-
-
+  .Accordeon {
+    flex-direction: column;
+    margin: auto;
+  }
 }

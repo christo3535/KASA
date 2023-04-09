@@ -1,9 +1,9 @@
 section {
   display: flex;
   flex-direction: column;
-    margin: 0px auto;  
-    max-width: 1240px;
-   gap: 30px; 
+  margin: 0px auto;
+  max-width: 1240px;
+  gap: 30px;
 }
 
 .appartementGrid {
@@ -16,12 +16,12 @@ section {
   width: 100%;
   /* margin-top: 30px; */
   gap: 30px;
-  padding: 45px  25px;
+  padding: 45px 25px;
   margin-bottom: 30px;
 }
 
 /********* TABLETTES ********/
-@media screen  and (max-width: 820px){
+@media screen and (max-width: 820px) {
   .appartementGrid {
     padding: 25px 10px;
     background-color: white;
@@ -30,21 +30,19 @@ section {
 
 /***** MOBILES ******/
 
-@media screen  and (max-width:420px){
-    .appartementGrid{
-     padding: 10px;
-    }
-    
-   section {
-    margin: auto;
-    gap: 10px;
-   }
-}
-
-@media screen  and (max-width: 280px){
-
+@media screen and (max-width: 420px) {
   .appartementGrid {
     padding: 10px;
   }
-  
+
+  section {
+    margin: auto;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .appartementGrid {
+    padding: 10px;
+  }
 }
