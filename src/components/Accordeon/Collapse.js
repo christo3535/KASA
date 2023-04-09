@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import ArrowUp from "../../images/arrow.png";
-import ArrowDown from "../../images/arrow_back.png";
-// import ArrowDown from "../../images/arrow.png"
+import ArrowUp from "@/images/arrow.png";
+import ArrowDown from "@/images/arrow_back.png";
+
 import "./collapse.css";
 
 const Collapse = ({ title, content }) => {
