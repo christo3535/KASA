@@ -1,10 +1,10 @@
-import Home from "@/pages/Home";
+import Home from "@/pages/Home/Home";
 import "./App.css";
-import About from "@/pages/About";
+import About from "@/pages/About/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Error from "@/_utils/Error";
 
-import Appartements from "@/pages/Appartements";
+import Appartements from "@/pages/Appartements/Appartements";
 import Layout from "@/pages/Layout";
 
 function App() {
